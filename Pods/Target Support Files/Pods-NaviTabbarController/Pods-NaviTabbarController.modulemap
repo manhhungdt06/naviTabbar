@@ -1,0 +1,6 @@
+framework module Pods_NaviTabbarController {
+  umbrella header "Pods-NaviTabbarController-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A446C3FC145924748C09D918 /* Pods_NaviTabbarController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0971632D4F67093231F2C0FD /* Pods_NaviTabbarController.framework */; };
+		E2542F651DD1BE0B000688C3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2542F641DD1BE0B000688C3 /* CustomTextField.swift */; };
+		E2542F671DD1BE25000688C3 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2542F661DD1BE25000688C3 /* CustomButton.swift */; };
+		E2542F691DD1CA79000688C3 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2542F681DD1CA79000688C3 /* Users.swift */; };
+		E2804EB31DD1B75800DC0CF5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2804EB21DD1B75800DC0CF5 /* HomeViewController.swift */; };
+		E2804EB51DD1B76B00DC0CF5 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2804EB41DD1B76B00DC0CF5 /* FriendViewController.swift */; };
+		E2804EB71DD1B78F00DC0CF5 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2804EB61DD1B78F00DC0CF5 /* UserViewController.swift */; };
+		E2804EB91DD1B79F00DC0CF5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2804EB81DD1B79F00DC0CF5 /* ChatViewController.swift */; };
+		E2B6B9641DD178640086F765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B6B9631DD178640086F765 /* AppDelegate.swift */; };
+		E2B6B9661DD178640086F765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B6B9651DD178640086F765 /* ViewController.swift */; };
+		E2B6B9691DD178640086F765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B6B9671DD178640086F765 /* Main.storyboard */; };
+		E2B6B96B1DD178640086F765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B6B96A1DD178640086F765 /* Assets.xcassets */; };
+		E2B6B96E1DD178640086F765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B6B96C1DD178640086F765 /* LaunchScreen.storyboard */; };
+		E2B6B9761DD18C770086F765 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B6B9751DD18C770086F765 /* BaseViewController.swift */; };
+		E2B6B9781DD18CA90086F765 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B6B9771DD18CA90086F765 /* BaseNavigationController.swift */; };
+		E2B6B97A1DD18CCF0086F765 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B6B9791DD18CCF0086F765 /* BaseTabBarController.swift */; };
+		E2B6B97D1DD18D060086F765 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B6B97C1DD18D060086F765 /* LoginViewController.swift */; };
+		E2B6B97F1DD18D160086F765 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B6B97E1DD18D160086F765 /* SignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0971632D4F67093231F2C0FD /* Pods_NaviTabbarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaviTabbarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E56901BC6A6406C810F53FF /* Pods-NaviTabbarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaviTabbarController.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaviTabbarController/Pods-NaviTabbarController.release.xcconfig"; sourceTree = "<group>"; };
+		882C393F860EC37B5304D066 /* Pods-NaviTabbarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaviTabbarController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaviTabbarController/Pods-NaviTabbarController.debug.xcconfig"; sourceTree = "<group>"; };
+		E2542F641DD1BE0B000688C3 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		E2542F661DD1BE25000688C3 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		E2542F681DD1CA79000688C3 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		E2804EB21DD1B75800DC0CF5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E2804EB41DD1B76B00DC0CF5 /* FriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		E2804EB61DD1B78F00DC0CF5 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		E2804EB81DD1B79F00DC0CF5 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		E2B6B9601DD178640086F765 /* NaviTabbarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaviTabbarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B6B9631DD178640086F765 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2B6B9651DD178640086F765 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2B6B9681DD178640086F765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2B6B96A1DD178640086F765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2B6B96D1DD178640086F765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2B6B96F1DD178640086F765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B6B9751DD18C770086F765 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E2B6B9771DD18CA90086F765 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		E2B6B9791DD18CCF0086F765 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		E2B6B97C1DD18D060086F765 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E2B6B97E1DD18D160086F765 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E2B6B9811DD194830086F765 /* SF-UI-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Bold.otf"; sourceTree = "<group>"; };
+		E2B6B9821DD194830086F765 /* SF-UI-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Light.otf"; sourceTree = "<group>"; };
+		E2B6B9831DD194830086F765 /* SF-UI-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Medium.otf"; sourceTree = "<group>"; };
+		E2B6B9841DD194830086F765 /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
+		E2B6B9851DD194830086F765 /* SF-UI-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Semibold.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2B6B95D1DD178640086F765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A446C3FC145924748C09D918 /* Pods_NaviTabbarController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBDD3EE7F515F5E172492689 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				882C393F860EC37B5304D066 /* Pods-NaviTabbarController.debug.xcconfig */,
+				2E56901BC6A6406C810F53FF /* Pods-NaviTabbarController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2542F631DD1BDD8000688C3 /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				E2542F641DD1BE0B000688C3 /* CustomTextField.swift */,
+				E2542F661DD1BE25000688C3 /* CustomButton.swift */,
+			);
+			name = CustomClass;
+			sourceTree = "<group>";
+		};
+		E2B6B9571DD178640086F765 = {
+			isa = PBXGroup;
+			children = (
+				E2B6B9621DD178640086F765 /* NaviTabbarController */,
+				E2B6B9611DD178640086F765 /* Products */,
+				BBDD3EE7F515F5E172492689 /* Pods */,
+				F968AB00043811FBE79465AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2B6B9611DD178640086F765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2B6B9601DD178640086F765 /* NaviTabbarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2B6B9621DD178640086F765 /* NaviTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				E2542F631DD1BDD8000688C3 /* CustomClass */,
+				E2B6B9801DD1947A0086F765 /* Fonts */,
+				E2B6B97B1DD18CD70086F765 /* Controllers */,
+				E2B6B9631DD178640086F765 /* AppDelegate.swift */,
+				E2B6B9651DD178640086F765 /* ViewController.swift */,
+				E2B6B9671DD178640086F765 /* Main.storyboard */,
+				E2B6B96A1DD178640086F765 /* Assets.xcassets */,
+				E2B6B96C1DD178640086F765 /* LaunchScreen.storyboard */,
+				E2B6B96F1DD178640086F765 /* Info.plist */,
+				E2B6B9751DD18C770086F765 /* BaseViewController.swift */,
+				E2B6B9771DD18CA90086F765 /* BaseNavigationController.swift */,
+				E2B6B9791DD18CCF0086F765 /* BaseTabBarController.swift */,
+				E2542F681DD1CA79000688C3 /* Users.swift */,
+			);
+			path = NaviTabbarController;
+			sourceTree = "<group>";
+		};
+		E2B6B97B1DD18CD70086F765 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2B6B97C1DD18D060086F765 /* LoginViewController.swift */,
+				E2B6B97E1DD18D160086F765 /* SignUpViewController.swift */,
+				E2804EB21DD1B75800DC0CF5 /* HomeViewController.swift */,
+				E2804EB41DD1B76B00DC0CF5 /* FriendViewController.swift */,
+				E2804EB61DD1B78F00DC0CF5 /* UserViewController.swift */,
+				E2804EB81DD1B79F00DC0CF5 /* ChatViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E2B6B9801DD1947A0086F765 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E2B6B9811DD194830086F765 /* SF-UI-Text-Bold.otf */,
+				E2B6B9821DD194830086F765 /* SF-UI-Text-Light.otf */,
+				E2B6B9831DD194830086F765 /* SF-UI-Text-Medium.otf */,
+				E2B6B9841DD194830086F765 /* SF-UI-Text-Regular.otf */,
+				E2B6B9851DD194830086F765 /* SF-UI-Text-Semibold.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		F968AB00043811FBE79465AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0971632D4F67093231F2C0FD /* Pods_NaviTabbarController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2B6B95F1DD178640086F765 /* NaviTabbarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B6B9721DD178640086F765 /* Build configuration list for PBXNativeTarget "NaviTabbarController" */;
+			buildPhases = (
+				2CC55A59D059E8B37E6E49BF /* [CP] Check Pods Manifest.lock */,
+				E2B6B95C1DD178640086F765 /* Sources */,
+				E2B6B95D1DD178640086F765 /* Frameworks */,
+				E2B6B95E1DD178640086F765 /* Resources */,
+				1E8284C063D377E6E5297A0E /* [CP] Embed Pods Frameworks */,
+				3F6F917B458315B88800BAE7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaviTabbarController;
+			productName = NaviTabbarController;
+			productReference = E2B6B9601DD178640086F765 /* NaviTabbarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2B6B9581DD178640086F765 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = techmaster;
+				TargetAttributes = {
+					E2B6B95F1DD178640086F765 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E2B6B95B1DD178640086F765 /* Build configuration list for PBXProject "NaviTabbarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2B6B9571DD178640086F765;
+			productRefGroup = E2B6B9611DD178640086F765 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2B6B95F1DD178640086F765 /* NaviTabbarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2B6B95E1DD178640086F765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B6B96E1DD178640086F765 /* LaunchScreen.storyboard in Resources */,
+				E2B6B96B1DD178640086F765 /* Assets.xcassets in Resources */,
+				E2B6B9691DD178640086F765 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E8284C063D377E6E5297A0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaviTabbarController/Pods-NaviTabbarController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CC55A59D059E8B37E6E49BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3F6F917B458315B88800BAE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaviTabbarController/Pods-NaviTabbarController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2B6B95C1DD178640086F765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2542F671DD1BE25000688C3 /* CustomButton.swift in Sources */,
+				E2B6B97D1DD18D060086F765 /* LoginViewController.swift in Sources */,
+				E2804EB71DD1B78F00DC0CF5 /* UserViewController.swift in Sources */,
+				E2804EB91DD1B79F00DC0CF5 /* ChatViewController.swift in Sources */,
+				E2B6B97F1DD18D160086F765 /* SignUpViewController.swift in Sources */,
+				E2B6B9781DD18CA90086F765 /* BaseNavigationController.swift in Sources */,
+				E2542F691DD1CA79000688C3 /* Users.swift in Sources */,
+				E2804EB31DD1B75800DC0CF5 /* HomeViewController.swift in Sources */,
+				E2B6B9661DD178640086F765 /* ViewController.swift in Sources */,
+				E2B6B97A1DD18CCF0086F765 /* BaseTabBarController.swift in Sources */,
+				E2542F651DD1BE0B000688C3 /* CustomTextField.swift in Sources */,
+				E2804EB51DD1B76B00DC0CF5 /* FriendViewController.swift in Sources */,
+				E2B6B9641DD178640086F765 /* AppDelegate.swift in Sources */,
+				E2B6B9761DD18C770086F765 /* BaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2B6B9671DD178640086F765 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2B6B9681DD178640086F765 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2B6B96C1DD178640086F765 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2B6B96D1DD178640086F765 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2B6B9701DD178640086F765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2B6B9711DD178640086F765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2B6B9731DD178640086F765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 882C393F860EC37B5304D066 /* Pods-NaviTabbarController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NaviTabbarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = example.NaviTabbarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E2B6B9741DD178640086F765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E56901BC6A6406C810F53FF /* Pods-NaviTabbarController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NaviTabbarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = example.NaviTabbarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2B6B95B1DD178640086F765 /* Build configuration list for PBXProject "NaviTabbarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B6B9701DD178640086F765 /* Debug */,
+				E2B6B9711DD178640086F765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B6B9721DD178640086F765 /* Build configuration list for PBXNativeTarget "NaviTabbarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B6B9731DD178640086F765 /* Debug */,
+				E2B6B9741DD178640086F765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2B6B9581DD178640086F765 /* Project object */;
+}
